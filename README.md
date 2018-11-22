@@ -4,7 +4,7 @@ This code and scripts allow for GCC code coverage to be performed on an embedded
 
 # depenencies
 - This project assumes that you have ELM-Chans FatFS file system http://elm-chan.org/fsw/ff/00index_e.html available for writing .gcda files to a device. 
-  - FatFS need to be configured using `USE_LFN` to suport the potentially long file names of the insturmented source code.
+  - FatFS needs to be configured using `USE_LFN` to suport the potentially long file names of the instrumented source code.
 
 # host computer setup
 - Install lcov
